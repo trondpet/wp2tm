@@ -1,12 +1,11 @@
 <?php
 /*
 Plugin Name: WP Topic Maps
-Plugin URI: http://www.topicobserver.com/wp2tm/
-Description: Exports your Wordpress blog &amp; entries to XML Topic Maps (XTM 1.0). May enable the sharing of knowledge across Wordpress blogs. Configure via WP Admin Panel. [<strong><a href="http://www.topicobserver.com/wp2tm/">Plug-in Home</a></strong>].
+Plugin URI: https://github.com/trondpet/wp2tm/
+Description: Exports your Wordpress blog &amp; entries to XML Topic Maps (XTM 1.0). May enable the sharing of knowledge across Wordpress blogs. Configure via WP Admin Panel. [<strong><a href="https://github.com/trondpet/wp2tm/">Plug-in Home</a></strong>].
 Author: Trond K. Pettersen
 Version: 0.1
-Author URI: http://www.topicobserver.com/wp2tm/
-Feed URI: http://www.topicobserver.com/wp2tm/category/releases/feed/
+Author URI: https://github.com/trondpet/
 */
 
 /**
@@ -29,7 +28,7 @@ Feed URI: http://www.topicobserver.com/wp2tm/category/releases/feed/
  */
 
 define('WP2TM_VERSION', '0.1');
-define('WP2TM_URL', 'http://www.topicobserver.com/wp2tm/');
+define('WP2TM_URL', 'https://github.com/trondpet/wp2tm/');
 define('WP2TM_XTM1NS', 'http://www.topicmaps.org/xtm/1.0/');
 define('WP2TM_XLINKNS', 'http://www.w3.org/1999/xlink');
 
@@ -945,5 +944,3 @@ function wp2tm_getRelatedTagData($tagId) {
 	$relatedTagsData = $options['wp2tm_related_tags'];
 	return array_key_exists($tagId, $relatedTagsData) ? $relatedTagsData[$tagId] : array();
 }
-
-?>

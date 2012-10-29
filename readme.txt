@@ -38,7 +38,3 @@ the top-level folder. Don't just upload all the files and put them in `/wp-conte
 3. Visit your WP2TM options (*Options - WP Topic Maps*)
 4. That's it!
 
-== Frequently Asked Questions ==
-
-Please read these **[FAQs](http://www.topicobserver.com/wp2tm/faq/)** before requesting
-**[Support](http://www.topicobserver.com/wp2tm/support/#respond)**

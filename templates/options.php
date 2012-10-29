@@ -192,7 +192,7 @@ $options = wp2tm_getOptions(true);
 </style>
 
 <p>
-	You may control the <a href="http://www.topicobserver.com/wp2tm/">WP2TM</a> 
+	You may control the <a href="https://github.com/trondpet/wp2tm/">WP2TM</a> 
 	generated <acronym title="XML Topic Maps">XTM</acronym> by adjusting the settings below.
 </p>
 
@@ -272,8 +272,7 @@ $options = wp2tm_getOptions(true);
 		
 		<div>
 			<h4>
-				Relate tags to other blogs' tags 
-				(<a href="http://www.topicobserver.com/wp2tm/features/#related-tags" target="_blank">help</a>)
+				Relate tags to other blogs' tags
 			</h4>
 			<p>
 				<kbd>*</kbd> denotes required field.
