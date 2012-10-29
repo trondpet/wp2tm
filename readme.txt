@@ -7,8 +7,11 @@ Tested up to: 2.3.3
 Stable tag: trunk
 License: FreeBSD
 
-An old Wordpress plugin of mine that adds XML Topic Maps (XTM) `feeds' to your blog.
-Haven't maintained or tested it in a while, but feel free to request changes or submit a pull request if you have a valid use case ;)
+An old Wordpress plugin of mine that adds XML Topic Maps (XTM) `feeds' to your Wordpress blog.
+
+Originally created as an experiment for exposing blogs as topic maps and enable merging of information from blogs across the web. 
+
+I haven't maintained or tested it in a while, but feel free to request changes or submit a pull request if you have a valid use case.
 
 == Description ==
 
