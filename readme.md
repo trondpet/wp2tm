@@ -1,4 +1,4 @@
-=== Wordpress Topic Maps (WP2TM) ===
+# Wordpress Topic Maps (WP2TM)
 
 Contributors: trond
 Tags: feed, feeds, plugin, semantics, semantic web, topic maps, xtm
@@ -13,7 +13,7 @@ Originally created as an experiment for exposing blogs as topic maps and enable 
 
 I haven't maintained or tested it in a while, but feel free to request changes or submit a pull request if you have a valid use case.
 
-== Description ==
+## Description
 
 Adds XML Topic Maps (XTM) support to your blog. 
 Share knowledge accross blogs by merging XTM exports using topic maps based software. 
@@ -30,7 +30,7 @@ Some features:
 * Control via Wordpress' admin panel
 * Relate blog tags to other tags via admin panel, for use in XTM export
 
-== Installation ==
+## Installation
 
 1. Unzip into your `/wp-content/plugins/` directory. If you're uploading it make sure to upload
 the top-level folder. Don't just upload all the files and put them in `/wp-content/plugins/`.
